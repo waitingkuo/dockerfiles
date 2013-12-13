@@ -7,7 +7,7 @@
 #
 # Run:
 #
-#   docker run -d -p 27017:27017 -p 28017:28017 -v /path/to/data/db/:data/db waitingkuo/mongodb
+#   docker run -d -p 27017:27017 -p 28017:28017 -v /path/to/data/db/:/data/db waitingkuo/mongodb
 #
 # VERSION   0.1
 
