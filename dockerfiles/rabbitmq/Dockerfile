@@ -29,6 +29,9 @@ RUN apt-key adv --keyserver pgp.mit.edu --recv-keys 0x056E8E56
 RUN apt-get update
 RUN apt-get install -y rabbitmq-server
 
+# Enable Management tool
+RUN rabbitmq-plugins enable rabbitmq_management
+
 
 # Export port for amqp and web console
 EXPOSE 5672 15672
