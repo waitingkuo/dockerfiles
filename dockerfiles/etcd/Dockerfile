@@ -27,8 +27,6 @@ RUN add-apt-repository -y ppa:duh/golang
 RUN apt-get update
 RUN apt-get install -y golang
 
-RUN apt-get install git
-
 
 # Install etcd
 #RUN git clone git@github.com:coreos/etcd.git
